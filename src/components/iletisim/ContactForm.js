@@ -6,7 +6,7 @@ import "./Iletisim.css";
 import useDocumentTitle from '../../useDocumentTitle';
 
 
-import mailback from "./mailBack.jpg";
+
 
 
 
@@ -170,7 +170,8 @@ class ContactForm extends Component {
             display: "flex",
             justifyContent: "center",
             
-            backgroundImage: "url(" + mailback + ")",
+            /*backgroundImage: "url(" + mailback + ")", */
+            backgroundColor:"#DCDCDC",
             backgroundPosition:"center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
@@ -190,7 +191,7 @@ class ContactForm extends Component {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                color: "#2E6772",
+                color: "#0180c2",
                 padding:"1%",
                 fontSize:"large",
                 
@@ -307,7 +308,7 @@ class ContactForm extends Component {
                   <button
                     className="btn btn-primary gonder"
                     type="submit"
-                    style={{ backgroundColor:"#2E6772",display:"block",margin:"auto",align:"justify" }}
+                    style={{ backgroundColor:"#0180c2",display:"block",margin:"auto",align:"justify" }}
                   >
                     <b>Gönder</b>
                   </button>

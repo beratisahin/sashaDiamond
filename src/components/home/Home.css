@@ -28,6 +28,7 @@
       .homepageSlider{
         margin-top: 3rem !important;
         display: "none" !important;
+        width: 100% !important;
       }
       .react-player{
         display:flex !important;
