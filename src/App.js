@@ -9,39 +9,23 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/home/Home";
-import Hakkimizda from "./components/kurumsal/hakkimizda/Hakkimizda";
-import Belgerimiz from "./components/kurumsal/belgelerimiz/Belgelerimiz";
-import Referanslarimiz from "./components/kurumsal/referanslarimiz/Referanslarimiz";
-import Ekibimiz from "./components/kurumsal/ekibimiz/Ekibimiz";
+import Hakkimizda from "./components/hakkimizda/Hakkimizda";
+
 import Iletisim from "./components/iletisim/ContactForm";
 
-import Yirmi from "./components/hizmetler/agiz-dis-sagligi/Yirmiyas";
-import Gomulu from "./components/hizmetler/agiz-dis-sagligi/Gomulu";
-import Kist from "./components/hizmetler/agiz-dis-sagligi/Kist";
-import Cene from "./components/hizmetler/agiz-dis-sagligi/Cene";
 
-import Implant from "./components/hizmetler/agiz-dis-sagligi/Implant";
-import Protetik from "./components/hizmetler/agiz-dis-sagligi/Protetik";
-import Zirkonyum from "./components/hizmetler/agiz-dis-sagligi/Zirkonyum";
-import Porselen from "./components/hizmetler/agiz-dis-sagligi/Porselen";
-import Beyazlatma from "./components/hizmetler/agiz-dis-sagligi/Beyazlatma";
-import Ortodonti from "./components/hizmetler/agiz-dis-sagligi/Ortodonti";
-import Pedodonti from "./components/hizmetler/agiz-dis-sagligi/Pedodonti";
-import Kanal from "./components/hizmetler/agiz-dis-sagligi/Kanal";
-import Periodontoloji from "./components/hizmetler/agiz-dis-sagligi/Periodontoloji";
-import Dijital from "./components/hizmetler/agiz-dis-sagligi/Dijital";
+import Medikal from "./components/hizmetler/MedikalCiltBakimi";
+import Tum from "./components/hizmetler/TumVucutLazerEpilasyon";
+import Hydrafacial from "./components/hizmetler/HydrafacialCiltBakimi";
+import G5 from "./components/hizmetler/G5Masaji";
+import KirpikLifting from "./components/hizmetler/EnseYanakBoyunEpilasyon";
+import KasLaminasyonu from "./components/hizmetler/BikiniBolgesi";
 
-import Merzifon from "./components/subeler/Merzifon";
-import Vezirkopru from "./components/subeler/Vezirkopru";
-import Havza from "./components/subeler/Havza";
-import Suluova from "./components/subeler/Suluova";
-import Gumushacikoy from "./components/subeler/Gumushacikoy";
-import Osmancik from "./components/subeler/Osmancik";
+import Cihazlar from "./components/hizmetler/Urunler";
+import Blog from "./components/blog/Blog";
+import Fotograf from "./components/galeri/FotografVideo";
+import Video from "./components/galeri/FotografVideo";
 
-import Galeri from "./components/galeri/Galeri";
-import Guzellik from "./components/hizmetler/lazer-epilasyon/Guzellik";
-import Sac from "./components/hizmetler/sac-ekim-merkezi/Sac";
-import Sss from "./components/sss/Sss";
 
 
 
@@ -61,39 +45,20 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/anasayfa" component={Home} />
             <Route path="/hakkimizda" component={Hakkimizda} />
-            <Route path="/belgelerimiz" component={Belgerimiz} />
-            <Route path="/referanslarimiz" component={Referanslarimiz} />
-            <Route path="/hekimlerimiz" component={Ekibimiz} />
+           
             
+            <Route exact path="/medikal-cilt-bakimi" component={Medikal}/>
+            <Route exact path="/robotx-lazer-epilasyon" component={Tum}/>
+            <Route exact path="/hydrafacial-cilt-bakimi" component={Hydrafacial}/>
+            <Route exact path="/g5-kavitasyon" component={G5}/>
+            <Route exact path="/kirpik-lifting" component={KirpikLifting}/>
+            <Route exact path="/kas-laminasyonu" component={KasLaminasyonu}/>
 
-            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/yirmi-yas-dis-tedavisi" component={Yirmi} />
-            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/gomulu-dis-operasyonlari" component={Gomulu} />
-            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/kist-ve-tumor-operasyonlari" component={Kist} />
-            <Route path="/agiz-dis-sagligi/agiz-dis-ve-cene-cerrahisi/cene-eklemi-rahatsizliklari" component={Cene} />
-            
-
-            <Route path="/agiz-dis-sagligi/implant" component={Implant} />
-            <Route path="/agiz-dis-sagligi/protetik-dis-tedavisi" component={Protetik} />
-            <Route path="/agiz-dis-sagligi/zirkonyum-dis-kaplama" component={Zirkonyum} />
-            <Route path="/agiz-dis-sagligi/porselen-lamine" component={Porselen} />
-            <Route path="/agiz-dis-sagligi/dis-beyazlatma" component={Beyazlatma} />
-            <Route path="/agiz-dis-sagligi/ortodonti" component={Ortodonti} />
-            <Route path="/agiz-dis-sagligi/pedodonti" component={Pedodonti} />
-            <Route path="/agiz-dis-sagligi/kanal-ve-dolgu-tedavisi" component={Kanal} />
-            <Route path="/agiz-dis-sagligi/periodontoloji" component={Periodontoloji} />
-            <Route path="/agiz-dis-sagligi/dijital-dis-hekimligi" component={Dijital} />
-
-            <Route path="/merzifon-dis" component={Merzifon} />
-            <Route path="/vezirkopru-dis" component={Vezirkopru} />
-            <Route path="/havza-dis" component={Havza} />
-            <Route path="/suluova-dis" component={Suluova} />
-            <Route path="/gumushacikoy-dis" component={Gumushacikoy} />
-            <Route path="/osmancik-dis" component={Osmancik} />
-
-            <Route path="/sac-ekim-merkezi" component={Sac} />
-            <Route path="/lazer-epilasyon-ve-guzellik-merkezi" component={Guzellik} />
-            <Route path="/galeri" component={Galeri} />
-            <Route path="/sikca-sorulan-sorular" component={Sss} /> 
+            <Route exact path="/cihazlarimiz" component={Cihazlar}/>
+           
+            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/fotograflar" component={Fotograf} />
+            <Route exact path="/videolar" component={Video} />
             
             <Route path="/iletisim" component={Iletisim} />
 
