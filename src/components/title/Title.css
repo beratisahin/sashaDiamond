@@ -1,6 +1,6 @@
 .page_header{
     
-    background-image: url("./bgi2.jpg");
+    background-image: url("./bgi3.jpg");
     height: 4rem;
 }
 .page_header_home{
@@ -12,8 +12,11 @@
 }
 .page_header_home:hover{
     text-decoration: none !important;
-    color: #168B80 !important;
+    color: #0180c2 !important;
+    
+    
 }
+
 
 .page_header_title{
     font-size: medium;
