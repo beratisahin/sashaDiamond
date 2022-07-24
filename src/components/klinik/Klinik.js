@@ -4,6 +4,15 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css'
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import { NavigateBeforeSharp } from '@material-ui/icons';
+import k1 from "./kampanyalar/1.png";
+import k2 from "./kampanyalar/2.png";
+import k3 from "./kampanyalar/3.png";
+import k4 from "./kampanyalar/4.png";
+import k5 from "./kampanyalar/5.png";
+import k6 from "./kampanyalar/6.png";
+import k7 from "./kampanyalar/7.png";
+import k8 from "./kampanyalar/8.png";
+
 
 
 
@@ -35,7 +44,7 @@ const options = {
             items: 2,
         },
         1000: {
-            items: 4,
+            items: 3,
         }
     },
   };
@@ -43,119 +52,54 @@ const options = {
 
 export default function Klinik() {
     return (
-       
+        <div class="col-12" style={{width:"100%",display:"flex",justifyContent:"center",flexWrap:"wrap"}}>
              <OwlCarousel className="owl-theme owl-roof" {...options}>
                  
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1m_3ZTRkvVCSYuNP_veU43TGY3vOrPngp" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
+                        <img src={k1} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1Kv9r0bvgPbkbOZoVLw-DLb5xF7Flw4Ck" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
+                        <img src={k2} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1MCmQnY351hGOOKDLR4jzfAwcrPHRXe3p" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
+                        <img src={k3} className="owlCarouselImageKlinik" alt="Kayseri Sasha Diamond Güzellik Merkezi" title="Kayseri Sasha Diamond Güzellik Merkezi"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1WOm5AKTZOcPa2CSQkQg2H6CMejsZjaeF" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
+                        <img src={k4} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1aRFDryyNIX2YE665QpS9qQ6lIWqL_ZDB" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
+                        <img src={k5} className="owlCarouselImageKlinik" alt="Kayseri Sasha Diamond Güzellik Merkezi" title="Kayseri Sasha Diamond Güzellik Merkezi"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1VR_f9AjoNcoiMFWirlz1QLQeSk3FHqBh" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
+                        <img src={k6} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1gDMFqDOOnz-lv8OKRSjfIVYAMlCT9l4c" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
+                        <img src={k7} className="owlCarouselImageKlinik" alt="Kayseri Sasha Diamond Güzellik Merkezi" title="Kayseri Sasha Diamond Güzellik Merkezi"></img>
                     </div>
                 </div>
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1-CvsA1Cjv37doDg2eUMKsWpvIy1bINv-" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1uQgqKQs1hR6JXxtt623yefToK0Qe8Lfp" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1INWjNEBUo4IDWOOWT1j_cUqsJLMSf7Ak" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1elntPqKMAPzSJfmZGoP9GkrOgYasXYJD" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1Xfa-X4rolhzylwsf_I5HQhjfGJCSKxcZ" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=17IKut-_siZDcWXaZqgv7gAXz1Dg2zrSo" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1WOYIQbtTaAsmizv8cqDf-NcWs3pCjImX" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=179ZPTpMsE9M_A8C21qVrk7atyWm3ukFl" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1mf24H3HydMM5cJ8XDEfOv4LNzwf5U-Mj" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1BAKJlrx5QKWYbUGkimfTrKHhKmpoXbmR" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1aMwLCGtdFnRsUF83JRFjKtZveyq0RLBq" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1i1-3IXCpkNi5kc7IMtXinnDa-h-itGWN" className="owlCarouselImageKlinik" alt="Merzifon Diş Medisam" title="Merzifon Diş Medisam"></img>
-                    </div>
-                </div>
-                <div className="item owl-slider">
-                    <div className="owlCarouselTempKlinik">
-                        <img src="https://drive.google.com/uc?export=view&id=1iSjv_Jd7ZoBBjeM72Hr_DJzb_-nvwvU5" className="owlCarouselImageKlinik" alt="Vezirköprü Diş Medisam" title="Vezirköprü Diş Medisam"></img>
+                        <img src={k8} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
                     </div>
                 </div>
                 
-                
-               
-              
-                
-                
-
+            
 </OwlCarousel>
 
-
+</div>
             
         
     )

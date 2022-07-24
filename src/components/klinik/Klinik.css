@@ -8,7 +8,7 @@
     
     border-radius: 1rem; 
     height: auto;
-    width: 90%;
+    width: 95%;
  }
  
  .owlCarouselContentDoktor{
@@ -18,8 +18,8 @@
     font-size: large;
  }
  .owlCarouselImageKlinik{
-    height: 25rem;
-    width: 25rem;
+    height: 32rem;
+    width: 30rem;
     margin-left: .5rem;
     border-radius: 1rem;
     border: 1px groove lightgray;
@@ -33,7 +33,7 @@
  }
  .owlCarouselImageKlinik:hover{
      opacity: .5;
-    border: 3px groove #168B80;;
+    border: 3px groove #0180c2;
  }
  
  
@@ -51,9 +51,8 @@
          font-size: medium !important;
       }
       .owlCarouselImageKlinik{
-        height: 20rem !important;
+        height: 25rem !important;
         margin: auto !important;
-        margin-left: 1rem !important;
         display: block !important;
         justify-content: center !important;
         

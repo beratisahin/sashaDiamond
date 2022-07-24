@@ -6,16 +6,9 @@ import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import { NavigateBeforeSharp } from '@material-ui/icons';
 import o1 from "../owlcarousel/owlIcons/m1.PNG";
 import o2 from "../owlcarousel/owlIcons/m2.PNG";
-import o3 from "../owlcarousel/owlIcons/m3.PNG";
-import o4 from "../owlcarousel/owlIcons/m4.PNG";
-import o5 from "../owlcarousel/owlIcons/m5.PNG";
 import o6 from "../owlcarousel/owlIcons/m6.PNG";
 import o7 from "../owlcarousel/owlIcons/m7.PNG";
 import o8 from "../owlcarousel/owlIcons/m8.PNG";
-import o9 from "../owlcarousel/owlIcons/m9.PNG";
-import o10 from "../owlcarousel/owlIcons/m10.PNG";
-import o11 from "../owlcarousel/owlIcons/m11.PNG";
-import o12 from "../owlcarousel/owlIcons/m12.PNG";
 
 
 //Owl Carousel Settings
@@ -73,30 +66,8 @@ export default function Owl() {
                </div>
                 
             </div>
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    
-                    <img src={o3} className="owlCarouselImage" title="Sasha Diamond Güzellik Merkezi" alt="Sasha Diamond Güzellik Merkezi"></img>
-                   <p className="owlCarouselContent">Göz</p>
+            
 
-               </div>
-               
-               
-            </div>
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    <img src={o4} className="owlCarouselImage" alt="Sasha Diamond Güzellik Merkezi" title="Sasha Diamond Güzellik Merkezi"></img>
-                   <p className="owlCarouselContent">Parfüm</p>
-               </div>
-               
-            </div>
-
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    <img src={o5} className="owlCarouselImage" alt="Sasha Diamond Güzellik Merkezi" title="Sasha Diamond Güzellik Merkezi"></img>
-                   <p className="owlCarouselContent">Bikini</p>
-               </div> 
-            </div>
 
             <div className="item owl-slider">
                 <div className="owlCarouselTemp">
@@ -121,35 +92,6 @@ export default function Owl() {
                </div> 
             </div>
 
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    <img src={o9} className="owlCarouselImage" alt="Sasha Diamond Güzellik Merkezi" title="Sasha Diamond Güzellik Merkezi"></img>
-                   <p className="owlCarouselContent">Ayna</p>
-               </div> 
-            </div>
-
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    <img src={o10} className="owlCarouselImage" alt="Sasha Diamond Güzellik Merkezi" title="Sasha Diamond Güzellik Merkezi"></img>
-                   <p className="owlCarouselContent">Takı</p>
-               </div> 
-            </div>
-
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    <img src={o11} className="owlCarouselImage" alt="Sasha Diamond Güzellik Merkezi" title="Sasha Diamond Güzellik Merkezi"></img>
-                   <p className="owlCarouselContent">Ayakkabı</p>
-               </div> 
-            </div>
-
-            <div className="item owl-slider">
-                <div className="owlCarouselTemp">
-                    <img src={o12} className="owlCarouselImage" alt="Sasha Diamond Güzellik Merkezi" title="Sasha Diamond Güzellik Merkezi"></img>
-                   <p className="owlCarouselContent">Çanta</p>
-               </div> 
-            </div>
-            
-            
            
         </OwlCarousel>
 
