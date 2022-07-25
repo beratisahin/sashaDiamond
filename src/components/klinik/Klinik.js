@@ -52,7 +52,7 @@ const options = {
 
 export default function Klinik() {
     return (
-        <div class="col-12" style={{width:"100%",display:"flex",justifyContent:"center",flexWrap:"wrap"}}>
+        <div class="col-12" style={{width:"100%",display:"flex",justifyContent:"center",flexWrap:"wrap",zIndex: "-1"}}>
              <OwlCarousel className="owl-theme owl-roof" {...options}>
                  
                 <div className="item owl-slider">
