@@ -3,15 +3,12 @@ import ReactPlayer from "react-player";
 import "./Home.css";
 import NedenBercislina from "../home/neden/Neden.js";
 import Mail from "../iletisim/ContactForm";
-import Slider from "../slider/Slider";
 import Owl from "../slider/owlcarousel/Owl";
 import Klinik from "../klinik/Klinik.js";
 
 import testimg from "../header/MedisamYuvarlakLogo.png"
 import Test from "../test/Test";
 
-import Acilis from "../slider/Acilis.jpeg";
-import Doktor from "../slider/Doktorlar.jpeg";
 
 
 import TopluHizmet from "../topluhizmet/TopluHizmet.js";

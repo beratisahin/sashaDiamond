@@ -9,6 +9,7 @@
    border-radius: 1rem; 
    height: auto;
    width: 90%;
+   
 }
 
 .owlCarouselContent{
@@ -16,10 +17,11 @@
    padding: 1rem;
    margin: auto;
    font-size: medium;
+   
 }
 .owlCarouselImage{
-   height: 10rem;
-   width: 11rem;
+   height: 20rem;
+   width: 15rem;
    border-radius: 1rem;
    border: 1px groove lightgray;
    padding: 2px !important;
@@ -49,7 +51,7 @@
         font-size: small !important;
      }
      .owlCarouselImage{
-       height: 8rem !important;
+       height: 18rem !important;
        
       
      }

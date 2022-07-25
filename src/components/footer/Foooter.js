@@ -103,7 +103,7 @@ Sasha Diamond Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikleri gö
             </p>
             <hr/>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/sasha.diamond.beauty/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left" }}
@@ -111,7 +111,7 @@ Sasha Diamond Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikleri gö
               <FacebookIcon className="icon" style={{fontSize:"24px"}}/>
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/sasha.diamond.beauty/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ float: "left", textIndent: "10px" }}
