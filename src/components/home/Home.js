@@ -21,10 +21,15 @@ function Home() {
   return (
     <div>
  
-      <div className="col-12 homepageSlider" style={{width:"80%",justifyContent:"center",margin:"auto"}}>
-        <p className="acilDurumMobil" style={{display:"none"}}>Kayıtlarımız Başlamıştır</p>
-         <Slider/>  
+      <div className="row">
+        
+      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",marginTop:"1rem",color:"#0180c2",fontFamily:"sans-serif"}}>Kayıtlarımız Başlamıştır</h2>
+         <Klinik/>
       </div>
+     
+      
+      <br/>
+      <hr/>
      
       <div className="col-12">
             <NedenBercislina/>
@@ -39,16 +44,9 @@ function Home() {
 
       <hr/>
       
-      <div className="row">
-      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#0180c2",fontFamily: "'Times New Roman', Times, serif;"}}>Kampanyalarımız</h2>
-         <Klinik/>
-      </div>
-     
       
-      <br/>
-      <hr/>
       <div className="row">
-      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#0180c2",fontFamily: "'Times New Roman', Times, serif;"}}>Hizmetlerimiz</h2>
+      <h2 className="doktorlarTitle" style={{textAlign:"center",fontSize:"x-large",color:"#0180c2",fontFamily:"sans-serif"}}>Hizmetlerimiz</h2>
          <Owl/>
       </div>
       <br/>
