@@ -4,27 +4,24 @@
    margin: 0.5rem;
    margin-top: 1rem;  
 }
-.owlCarouselTemp{
-   
-   border-radius: 1rem; 
-   height: auto;
-   width: 90%;
-   
-}
+
 
 .owlCarouselContent{
    text-align: center;
    padding: 1rem;
    margin: auto;
    font-size: medium;
+   z-index: +10;
+   position: relative;
+   bottom: 4rem !important;
    
 }
 .owlCarouselImage{
-   height: 20rem;
-   width: 15rem;
+   height: 25rem;
+   width: 20rem;
    border-radius: 1rem;
-   border: 1px groove lightgray;
-   padding: 2px !important;
+   
+   
 }
 /* Opacity #1 */
 .owlCarouselImage{
