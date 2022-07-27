@@ -33,7 +33,7 @@ export default class Navbar extends Component {
           <nav class="navbar">
             <div class="branding">
               <a href="/">
-                <img  className="SashaDiamondLogo" title="Erzurum Blue Liva Güzellik Salonu" src={Logo}></img>
+                <img  className="SashaDiamondLogo" title="Kayseri Sasha Diamond Güzellik Salonu" src={Logo}></img>
               </a>
                 
             </div>
