@@ -12,6 +12,12 @@ import k5 from "./kampanyalar/5.png";
 import k6 from "./kampanyalar/6.png";
 import k7 from "./kampanyalar/7.png";
 import k8 from "./kampanyalar/8.png";
+import k9 from "./kampanyalar/9.png";
+import k10 from "./kampanyalar/10.png";
+import k11 from "./kampanyalar/11.png";
+import k12 from "./kampanyalar/12.png";
+import k13 from "./kampanyalar/13.png";
+import k14 from "./kampanyalar/14.png";
 
 
 
@@ -93,6 +99,36 @@ export default function Klinik() {
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
                         <img src={k8} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
+                    </div>
+                </div>
+                <div className="item owl-slider">
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k9} className="owlCarouselImageKlinik" alt="Kayseri Sasha Diamond Güzellik Merkezi" title="Kayseri Sasha Diamond Güzellik Merkezi"></img>
+                    </div>
+                </div>
+                <div className="item owl-slider">
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k10} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
+                    </div>
+                </div>
+                <div className="item owl-slider">
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k11} className="owlCarouselImageKlinik" alt="Kayseri Sasha Diamond Güzellik Merkezi" title="Kayseri Sasha Diamond Güzellik Merkezi"></img>
+                    </div>
+                </div>
+                <div className="item owl-slider">
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k12} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
+                    </div>
+                </div>
+                <div className="item owl-slider">
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k13} className="owlCarouselImageKlinik" alt="Kayseri Sasha Diamond Güzellik Merkezi" title="Kayseri Sasha Diamond Güzellik Merkezi"></img>
+                    </div>
+                </div>
+                <div className="item owl-slider">
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k14} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
                     </div>
                 </div>
                 
