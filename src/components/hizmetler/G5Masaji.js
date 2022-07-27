@@ -19,7 +19,7 @@ export default function G5Masajı() {
 
 G5 selülit cihazının her cilt ve vücut yapısına uygun başlıkları vardır. G5 selülit masajı, gerginleşmiş noktaları ve spazmları yatıştırmaya, yorgunluk sonrası kaslarda biriken laktik asidin ve ödemlerin atılmasına yardımcı olur. Ritmik masaj ile kan dolaşımını hızlandırır, tekrarlayan seanslarla cildin esnekliğini arttırır.
 
-G5 selülit masajı özellikle bölgesel zayıflamada diğer yöntemlerle birlikte kullanılan yöntemlerden biridir. G5 selülit masajı özellikle pasif jimnastik öncesinde vücudun ısınmasını ve yağ yakmaya daha erken başlamasına da yardımcıdır.</p>     
+G5 selülit masajı özellikle bölgesel zayıflamada diğer yöntemlerle birlikte kullanılan yöntemlerden biridir. G5 selülit masajı özellikle pasif jimnastik öncesinde vücudun ısınmasını ve yağ yakmaya daha erken başlamasına da yardımcıdır.   
 G5 Masajı tüm vücuda uygulanabilse de özellikle kalça, üst bacak, kol, popo bölgelerinde ve selülitle mücadelede daha etkili sonuçlar vermektedir.
 Bölgesel dolaşımı düzenler, Ağrıları giderir, Rahatlama sağlar, Cildi sıkılaştırır, Yağların yakılmasını ve bölgesel zayıflamayı sağlar Toksinlerin atılmasına yardımcı olur, cilde esneklik kazandırır, kas ve eklemlerin hareket kabiliyeti arttırır, Selülit oluşumunu engeller ve selüliti azaltır.
 Haftada 1 veya 2 defa uygulanır.
@@ -29,7 +29,7 @@ Etkili başarılı seans için en az 8 seans düzenli olarak devam ettirilmelidi
 
 İşlem süresi uygulanacak olan bölgeye göre değişkenlik göstermektedir. En az 15 en fazla 30 dk sürmektedir.
 
-Uygulama sırasında özel bir krem bölgeye uygulanır ve uzman tarafından işleme başlanır.
+Uygulama sırasında özel bir krem bölgeye uygulanır ve uzman tarafından işleme başlanır.</p>  
                     <h4><strong>Kavitasyon Nedir?&nbsp;</strong></h4>
                     <p class="hizmetyazi">Kavitasyon bölgesel incelme tedavisinde kullanılan bir yöntemdir. Cildin dış yüzeyine ultrason frekansları uygulanır ve bu sayede yağ dokularının içindeki hücrelerin sıvısında yüksek basınç değişiklikleri meydana gelir. Kavitasyonun bir ameliyat olmadığını belirtmek gerekir. Temelinde yağ dokularını sıvılaştırmak ve hücrelerin dokularının tahrip olmasını sağlamak amacına yönelik olarak uygulanır.
 
