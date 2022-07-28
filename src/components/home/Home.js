@@ -6,7 +6,6 @@ import Mail from "../iletisim/ContactForm";
 import Owl from "../slider/owlcarousel/Owl";
 import Klinik from "../klinik/Klinik.js";
 
-import testimg from "../header/MedisamYuvarlakLogo.png"
 import Test from "../test/Test";
 
 

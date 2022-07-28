@@ -146,7 +146,7 @@ Sasha Diamond Güzellik Merkezi olarak, hastalarımıza ulaşmak istedikleri gö
             <br/>
             <p style={{ fontSize: "14px", textAlign: "left" }}>
               {" "}
-              <a href="mailto:medisamlifemerzifon@gmail.com">
+              <a href="mailto:sasha.diamond.guzellik.merkezi@gmail.com">
                 <EmailIcon style={{fontSize:"24px"}}/>
               </a>
               &nbsp;
