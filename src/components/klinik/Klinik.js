@@ -18,6 +18,7 @@ import k11 from "./kampanyalar/11.png";
 import k12 from "./kampanyalar/12.png";
 import k13 from "./kampanyalar/13.png";
 import k14 from "./kampanyalar/14.png";
+import k15 from "./kampanyalar/15.png";
 
 
 
@@ -129,6 +130,11 @@ export default function Klinik() {
                 <div className="item owl-slider">
                     <div className="owlCarouselTempKlinik">
                         <img src={k14} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
+                    </div>
+                </div>
+                <div className="item owl-slider">
+                    <div className="owlCarouselTempKlinik">
+                        <img src={k15} className="owlCarouselImageKlinik" alt="Kayseri Lazer Epilasyon" title="Kayseri Lazer Epilasyon"></img>
                     </div>
                 </div>
                 
