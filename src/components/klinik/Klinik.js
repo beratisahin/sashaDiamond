@@ -132,16 +132,8 @@ export default function Klinik() {
                     kampanyaResim={k15}
                     kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20Kemer%20%C3%9Cst%C3%BC%20(Kol%20-%20Bel%20-%20S%C4%B1rt%20-%20G%C3%B6bek%20-%20G%C3%B6%C4%9F%C3%BCs)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
-                
-
-               
-                
-            
             </OwlCarousel>
-
-        </div>
-            
-        
+        </div>    
     )
 }
 

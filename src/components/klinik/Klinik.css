@@ -113,10 +113,14 @@
    animation-iteration-count: infinite;
    
 }
+.whatsapp_float_mesaj:hover{
+   color:#af832b !important;
+}
+
 /* The animation code */
 @keyframes whatsapp_float_mesaj {
    from {color: #0180c2;}
-   to {color: green}
+   to {color: #31CE80}
 }
 
 
