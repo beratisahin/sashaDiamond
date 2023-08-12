@@ -37,16 +37,16 @@ const options = {
             items: 1,
         },
         400: {
-            items: 1,
+            items: 2,
         },
         600: {
-            items: 2,
+            items: 3,
         },
         700: {
-            items: 2,
+            items: 4,
         },
         1000: {
-            items: 3,
+            items: 4,
         }
     },
 };
@@ -59,44 +59,44 @@ export default function Klinik() {
 
                 <KampComp
                     kampanyaResim={k1}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%2010%20Seans%20T%C3%BCm%20Kol-%20Koltukalt%C4%B1-%20T%C3%BCm%20Bacak%20lazer%20epilasyon%20(799%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k2}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%2010%20Seans%20T%C3%BCm%20Kol-%20Koltukalt%C4%B1-%20T%C3%BCm%20Bacak-%20Bikini%20B%C3%B6lgesi%20lazer%20epilasyon%20(1199%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
                 <KampComp
                     kampanyaResim={k3}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%201%20Seans%20Cilt%20Bak%C4%B1m%C4%B1%20(200%20tl)%2C%203%20Seans%20Cilt%20Bak%C4%B1m%C4%B1%20(500%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k4}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%204%20Seans%20Slim%20Zay%C4%B1flama%20(800%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k5}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%204%20Seans%20G5%20Masaj%C4%B1%20(800%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
                 <KampComp
                     kampanyaResim={k6}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%2010%20Seans%20Bayan%20Y%C3%BCz%20Epilasyon%20(500%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k7}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%2010%20Seans%20Bayanlar%20i%C3%A7in%20Tepeden%20T%C4%B1rna%C4%9Fa%20T%C3%BCm%20V%C3%BCcut%20Epilasyon%20(2000%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
 
                 <KampComp
                     kampanyaResim={k8}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%2010%20Seans%20Erkekler%20i%C3%A7in%20Ense-%20Boyun-%20Yanak%20Epilasyon%20(400%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
                 <KampComp
                     kampanyaResim={k9}
-                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%2010%20Seans%20Erkekler%20i%C3%A7in%20Komple%20Kemer%C3%BCst%C3%BC%20Lazer%20Epilasyon%20(1399%20tl)%20kampanyas%C4%B1%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
+                    kampanyaAd="https://wa.me/+905055782721?text=Merhaba%2C%20kampanyan%C4%B1z%20hakk%C4%B1nda%20bilgi%20alabilir%20miyim%3F"
                 />
             </OwlCarousel>
         </div>
