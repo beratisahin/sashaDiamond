@@ -18,7 +18,7 @@
     font-size: large;
  }
  .owlCarouselImageKlinik{
-    height: 400px;
+    height: auto;
     width: 400px;
     margin-left: .5rem;
     border-radius: 1rem 1rem 0 0;
@@ -134,7 +134,24 @@
  
 
 }
+@media screen and (max-width: 1200px) {
+     
+   .whatsapp_float_mesaj{
+     font-size: small !important;
+     margin-left: 0,1px !important;
+     padding-left: 0,1px !important;
+   }  
+}
 
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 1000px) {
+     
+   .whatsapp_float_mesaj{
+     font-size: xsmall !important;
+     margin-left: 0,1px !important;
+     padding-left: 0,1px !important;
+   }  
+}
 
  
  
@@ -151,7 +168,7 @@
          font-size: medium !important;
       }
       .owlCarouselImageKlinik{
-        height: 25rem !important;
+        height: 20rem !important;
         margin: auto !important;
         display: block !important;
         justify-content: center !important;

@@ -37,15 +37,18 @@ const options = {
             items: 1,
         },
         400: {
-            items: 2,
+            items: 1,
         },
         600: {
-            items: 3,
+            items: 2,
         },
         700: {
-            items: 4,
+            items: 3,
         },
         1000: {
+            items: 3,
+        },
+        1200: {
             items: 4,
         }
     },
